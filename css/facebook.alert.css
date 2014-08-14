@@ -1,0 +1,62 @@
+#popup_container {
+font-family:'Lucida Grande',arial;
+	font-weight:bold;
+	
+	text-align:left;
+	font-size: 12px;
+	width: 364px; 
+	height: 116px; 
+	background: #F3F3F3;
+	
+	border:solid 1px #dedede;
+	border-bottom: solid 2px #456FA5;
+	color: #000;
+	background-image:url(../images/body.png);
+	-moz-border-radius: 20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	
+}
+
+#popup_title {
+display:none;
+}
+
+
+
+#popup_message {
+padding-top: 15px;
+padding-left: 15px;
+padding-left:15px;
+padding-bottom:20px;
+}
+
+#popup_panel {
+text-align: left;
+padding-left:15px;
+padding-bottom:20px;
+	
+}
+#popup_panel input
+{
+background:#2BA4DC;
+		padding:10px 15px 10px 15px;
+		box-shadow:3px 3px 1px rgba(0,0,0,0.1);
+		color:#fff;
+		font-size: 13px;
+		font-weight:200;
+		text-transform:uppercase;
+		margin-left:5px;
+		-moz-transition: all 0.4s ease-in-out;
+		-o-transition: all 0.4s ease-in-out;
+		-ms-transition: all 0.4s ease-in-out;
+		-webkit-transition: all 0.4s ease-in-out;
+		transition: all 0.4s ease-in-out;	
+		border:#2BA4DC 1px solid;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		font-weight:bold;
+		float:left;
+}
+

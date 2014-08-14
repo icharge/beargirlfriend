@@ -2,10 +2,10 @@
 include('lib.php');
 ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title><? echo title();?> - Make Your Memes Fast And Easy!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><? echo title();?> | Recent meme</title>
 <link type="text/css" rel="stylesheet" href="css/style.css" />
 <? echo meta();?>
 <script type="text/javascript">
@@ -39,15 +39,6 @@ include('lib.php');
       });
 	  
     </script>
-<script type="text/javascript">
-$(function(){
-    $(".playlist").hide();
-    $(".player").hover(
-        function(){ $(".playlist").slideDown(); },
-        function(){ $(".playlist").slideUp(); }
-    );
-});
-</script>
 </head>
 <body>
 <div id="fb-root"></div>
@@ -58,7 +49,7 @@ $(function(){
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=512581982091695";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
- 
+
 $(document).ready(function(){
  
         $(".slidingDiv").hide();
@@ -68,9 +59,7 @@ $(document).ready(function(){
     $(".slidingDiv").slideToggle();
     });
  
-});
- 
-</script>
+});</script>
 <?
 
 $vote = $_GET['page'];
@@ -156,11 +145,11 @@ else
   </div>
 </div>
 <div class="page">
-  <div class="reklama_left"><? reklama01();?></div>
+  <div class="reklama_left"> <? reklama01();?> </div>
   <div class="page_right">
     <div class="meme_menu"> <? echo meme_menu(); ?> </div>
     <div class="social">
-      <div class="fb-like" data-href="https://www.facebook.com/pages/Memesoftwarecom/478564828840749?fref=ts" data-send="false" data-layout="box_count" data-width="75" data-show-faces="false"></div>
+      <div class="fb-like" style="float:left;" data-href="https://www.facebook.com/pages/Mememakerme-The-Best-Meme-Maker/195974057199386" data-send="false" data-layout="box_count" data-width="75" data-show-faces="false"></div>
       <div class="tw-like"> <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mememaker.me">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
@@ -179,23 +168,49 @@ else
       <div class="slidingDiv">
         <table class="tab_inde">
           <tr>
-            <td><h2>Your Meme Maker TEXT</h2></td>
+            <td><h2>Meme Maker Brings a Range of Exciting Memes to Create Hypes on Social Media</h2></td>
           </tr>
           <tr>
-            <td><p><strong>Meme Maker</strong> is the site bringing a host of exciting memes helping an individual to proliferate his or her message speedily on social media channels. Memes are a type of content with high viral capabilities that pass from person to person. The site owners believe in the rapid creation of memes and they also allow the registered users to make and upload memes to create hypes on social networking sites. </p></td>
+            <td><p>August 29, 2012 – <strong>Meme Maker</strong> is the site bringing a host of exciting memes helping an individual to proliferate his or her message speedily on social media channels. Memes are a type of content with high viral capabilities that pass from person to person. The site owners believe in the rapid creation of memes and they also allow the registered users to make and upload memes to create hypes on social networking sites. </p></td>
           </tr>
           <tr>
-           
+            <td><p>The founder of Mememaker.me, Martin believes, “Memes are supposed to be light-hearted but they can convey a marketing message very effectively, if created with an underlined intended goal. We have a large collection of memes, both user generated and created by us, that can engage the audience and deliver the intended message as well.” </p></td>
+          </tr>
+          <tr>
+            <td><p>According to Martin, meme creation has been in existence for some time and at the present time, they are internet’s favorite phenomena for creating highly viral content. He says that it’s a cultural element and each meme can be attributed to an individual’s personal taste, belief and choices. This is the reason memes can have a wide variety and an internet savvy person can always use them to deliver intended message to their target audience. Considering the importance of memes, Martin founded this <strong>meme creator</strong> site which is today very popular among the <strong>meme generator</strong> community. </p></td>
+          </tr>
+          <tr>
+            <td><p>Martin claims that numerous hottest memes are available on his site and users are actually enjoying this huge collection. Many social marketers are quite regular on his site to make use of exceptional memes for audience engagement. Memes have become a veritable tool for sharing viral content over internet and create awareness on various products, services or issues. </p></td>
+          </tr>
+          <tr>
+            <td><p>Pavel is a very talented engineer and artist who takes care of the technological aspects of the <strong>meme generator</strong> on the site. He assures that the site has scores of technologically and creatively excellent memes and stresses upon the need of knowing the audience before selecting memes for creating some viral content. According to him, audience’s tastes and language are the key determinants to choose memes from a particular genre besides adding a great sense of humor. </p></td>
+          </tr>
+          <tr>
+            <td><p>Lucie, another important team member of <strong>Meme Maker</strong>, uses her insight to help select the best meme pictures that can resonate with the focused target audience and convey the message in the best possible manner. Anyone can register on their site <a href="http://mememaker.me">www.mememaker.me</a> to check, create, upload and share numerous memes. </p></td>
+          </tr>
+          <tr>
+            <td><h2>About Meme Maker</h2></td>
+          </tr>
+          <tr>
+            <td><p>Website: <a href="http://mememaker.me">www.mememaker.me</a></p></td>
+          </tr>
+          <tr>
+            <td><p> Meme Maker is a team of young people who are net savvy and creative and constantly endeavor to create something funny. Founded by Martin, a 25-year-old student, the site strives to provide memes that can be used by people as a communication or a promotional tool. They offer a large collection of memes and promise to keep on adding new ones on a regular basis. </p></td>
+          </tr>
+          <tr>
+            <td><h2>Customer Care: Meme Maker</h2></td>
+          </tr>
+          <tr>
+            <td><p>Should you have any question, or want to know more about the memes and how can you use for your benefit, you can contact them at: info@mememaker.me</p></td>
+          </tr>
         </table>
       </div>
     </div>
     <div class="vypis_mem"> <span class="bgBlue"></span> <span class="bgGrey"></span>
-      <div class="mem_stats"> 
-        <div class="mem_state"> <? reklama02();?></div>
+      <div class="mem_stats">
+        <div class="mem_state"><? reklama02();?> </div>
         <div class="mem_menu"> <? echo ranks_right();?> </div>
-        <div class="mem_statf"></div>
-        <div class="bothed"></div>
-        <div class="mem_statots">
+        <div class="mem_stat">
           <div id="my_favorite_latin_words" class="tag_cloud" ></div>
         </div>
         <div class="mem_statpo"><? reklama03();?> </div>
@@ -211,7 +226,8 @@ function onScroll(e) {
 document.addEventListener('scroll', onScroll);
 </script>
       </div>
-      <?	
+      <?
+	  
 	    $jedna = explode('page' , $vote);
 		$dve = $jedna[0];
 		$tri = explode('-' , $dve);
@@ -227,12 +243,11 @@ document.addEventListener('scroll', onScroll);
 	    $url_page = $page + 1;
 		$url_page_p = $page - 1;
 	  	$wheel = 1;
-	  
-	  if($url_page>1){echo'<div class="left_pags"><a href="page'.$url_page_p.'"></a></div>';}
-	 $pri = mysql_query("SELECT * FROM images WHERE stav = '1' ORDER BY celkem DESC LIMIT ".intval($pocet).",$po");
+	if($url_page>1){echo'<div class="left_pags"><a href="recent_meme.php?page='.$url_page_p.'"></a></div>';}	
+	 $pri = mysql_query("SELECT * FROM images WHERE stav = '1' ORDER BY id DESC LIMIT ".intval($pocet).",$po");
 					while($row = mysql_fetch_object($pri))
 						{
-						if(empty($userid)){$un_url = 'login.php';}
+							if(empty($userid)){$un_url = 'login.php';}
 						else{$un_url = 'page'.$page.'-nv'.$row->id.'';}
 						if(empty($userid)){$vote_url = 'login.php';}
 						else{$vote_url = 'page'.$page.'-uv'.$row->id.'';}
@@ -243,61 +258,36 @@ document.addEventListener('scroll', onScroll);
 						$cor = ':';
 						$cimr = '';
 						$title = str_replace( $cor, $cimr, $title);
-						
-						
+							
+							
 							echo'<div class="mem_im">
 							<div class="image_menu">
 							  <div class="mem_title"><a href="'.$row->id.'-'.$title.'" title="'.$row->title.'"><h3>'.$row->title.'</h3></a></div>
 							  <div class="mem_fb">
-							  
 							   <div class="facebook"><div class="fb-like" data-href="http://mememaker.me/'.$row->id.'-'.$title.'" data-send="false" data-layout="button_count" data-width="75" data-show-faces="false"></div></div>
 							  </div>
 							  <div class="mem_ranks"> <a href="/'.$vote_url.'" class="pluse">'.$row->plus.'</a><div class="mem_stav">'.$row->celkem.'</div><a href="'.$un_url.'" class="minus">'.$row->minus.'</a> </div>
 							</div>
-							<div class="image_im"><a href="'.$row->id.'-'.$title.'"><img src="images/created/'.$row->name.'" alt="'.$row->title.'" title="'.$row->title.'" width="486" /></a></div>
-						  </div>';
-						  if($max_stranek > $url_page){echo' <div class="right_pags"><a href="page'.$url_page.'"></a></div>';}
-						 
-						  echo'<div class="meme_spacer"></div>';
+							<div class="image_im"><a href="'.$row->id.'-'.$title.'" ><a href="'.$row->id.'-'.$title.'" ><img src="images/created/'.$row->name.'" alt="'.$row->title.'" title="'.$row->title.'" width="486" /></a></div>
+						  </div>
+						  <div class="meme_spacer"></div>';
 							}
 							
 						  
-						
-								
+						 
 		
-		
-		
+		if($max_stranek > $url_page){echo' <div class="right_pags"><a href="recent_meme.php?page='.$url_page.'"></a></div>';}
 		echo'<div class="paginge">';
-		if($url_page>1){echo'<div class="paginge_left"><a href="page'.$url_page_p.'"><img src="images/previous.png" alt="previous_meme"></a></div>';}
-		if($max_stranek > $url_page){echo'<div class="paginge_right"><a href="page'.$url_page.'"><img src="images/next.png" alt="next_meme"></a></div>';}
-		
+		if($url_page>1){echo'<div class="paginge_left"><a href="recent_meme.php?page='.$url_page_p.'"><img src="images/previous.png" alt="previous_meme"></a></div>';}
+		if($max_stranek > $url_page){echo'<div class="paginge_right"><a href="recent_meme.php?page='.$url_page.'"><img src="images/next.png" alt="next_meme"></a></div>';}
 		echo'</div>';
 	 ?>
     </div>
   </div>
 </div>
-<div class="both"></div>
+<div style="clear:both"></div>
 <a href="#" class="top">TOP</a>
-<div class="footer">
-  <table class="tableses">
-    <tr>
-      <td><ul>
-          <li><a href="http://www.memesoftware.com" title="Home">Powered by Memesoftware.com</a></li>
-          
-      <td><p>Meme is a broad word that contains various meanings when used in different perspectives. Meme maker is one <br>
-          of the famous online apps today. It merely relates to any idea spreads all over the web. It can be images, videos, <br>
-          audio files, quotes, stories and others the term meme is not limited though it is more about images.  This idea is<br>
-          very famous and there is no doubt that it became viral especially when meme became a part of Facebook. <br>
-          There are merely millions of Facebook users these days that are actually opening the meme maker app and it <br>
-          is just so impossible for an app to become unnoticed especially now that social media is so famous. </p></td>
-      <td><ul  class="socials clearfix">
-          <li class="fb" title="Follow us on Facebook!"><a href="https://www.facebook.com/pages/Mememakerme/195974057199386" target="_blank"></a></li>
-          <li class="tw" title="Follow us on Twitter!"><a href="https://twitter.com/Mememakerme" target="_blank"></a></li>
-          <li class="rss" title="RSS Feed"></li>
-        </ul></td>
-    </tr>
-  </table>
-</div>
+<div class="footer"> </div>
 <? echo scripts();?>
 </body>
 </html>

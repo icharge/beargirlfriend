@@ -1,0 +1,49 @@
+{
+	"Emotions" :
+	{
+		"angry" : "Angry",
+		"angry2" : "Angry 2",
+		"determined" : "Determined",
+		"focused" : "Focused",
+		"foreveralone" : "Forever Alone",
+		"happy" : "Happy",
+		"laugh" : "Laugh",
+		"neutral" : "Neutral",
+		"neutralpeople" : "Neutral People",
+		"neutralwords" : "Neutral Words",
+		"pleased" : "Pleased",
+		"rage" : "Rage",
+		"sad" : "Sad",
+		"scared" : "Scared",
+		"seriously" : "Seriously?",
+		"lust" : "Sexy time",
+		"surprised" : "Surprised"
+	},
+	"Trolls" :
+	{
+		"troll"  : "Part 1",
+		"troll2" : "Part 2"
+	},
+	"Specialized":
+	{
+		"fyea" : "F*** Yea!",
+		"milk" : "Milk",
+		"cereal" : "Cereal/Newspaper Guy",
+		"beard" : "Epic Beard Guy",
+		"tf" : "Team Fortress",
+		"various" : "Various",
+		"transitions" : "Transitions"
+	},
+	"Objects":
+	{
+		"hair" : "Hair",
+		"accessories" : "Accessories",
+		"text" : "Speech Balloons"
+	},
+	"Memefriends":
+	{
+		"memefriends" : "All The Friends ",
+		"fruitmen" : "Fruit Men",
+		"dolansfriends" : "Dolan and Friends"
+	}
+}
