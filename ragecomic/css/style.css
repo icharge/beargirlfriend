@@ -107,7 +107,7 @@ textarea, input {
 }
 
 #canvasContainer {
-    padding-top: 30px;
+    padding-top: 45px;
     width: 620px;
     margin: 0 auto;
 }
@@ -129,7 +129,7 @@ img {
 
 a.dock-item {
     display: block;
-    width: 40px;
+    width: 50px;
     color: #000;
     position: absolute;
     top: 0px;

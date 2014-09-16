@@ -1,0 +1,70 @@
+html {
+  font-size: 27px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'TH Sarabun New';
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.content {
+  float: left;
+  width: 80%;
+  height: 7.037rem;
+  margin-left: 10%;
+}
+
+.header {
+  float: left;
+  width: 100%;
+  background-color: rgb(255, 202, 123);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+.headertext {
+  position: relative;
+  float: left;
+  width: 65.9375%;
+  height: 4.593rem;
+  margin: 1.259rem 0 0 3.22917%;
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 7.704rem;
+  height: auto;
+  margin: 0.222rem 0 0 0.625%;
+  overflow: hidden;
+}
+
+.subtitle {
+  float: left;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.title {
+  float: left;
+  min-height: 2.296rem;
+  font: normal 63px/1 THSarabunNew;
+  color: rgb(0, 0, 0);
+}
+
+@media(max-width: 960px) {
+  .content .headertext {
+    margin-left: 1.01929%;
+  }
+
+  .content .image {
+    width: 6.556rem;
+    height: auto;
+    margin-top: 0.704rem;
+    margin-left: 1.43026%;
+  }
+}

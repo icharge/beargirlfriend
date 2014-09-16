@@ -1,0 +1,155 @@
+html{font-size:20px;}
+
+body{background-color:rgb(255, 255, 255);font-family:THSarabunNew-Bold;font-weight:normal;line-height:1.2;color:rgb(0, 0, 0);}
+
+.button{width:3rem;height:1.5rem;margin:0.35rem 0 0 10.08073%;-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-o-transition:all 0.2s ease;-ms-transition:all 0.2s ease;transition:all 0.2s ease;}
+
+.button-img{display:block;width:1.5rem;height:auto;margin:0 auto;overflow:hidden;}
+
+.content{float:left;}
+
+.header{position:relative;float:left;z-index:37;width:100%;margin-top:2.25rem;background-color:rgb(144, 203, 219);}
+
+.headertext{position:relative;float:left;width:40.7299999999%;height:6.2rem;margin:2.85rem 0 0 2.1rem;}
+
+.image{display:block;float:left;width:1.95rem;height:auto;overflow:hidden;}
+
+.logo{position:relative;float:left;width:9rem;height:9rem;margin:0.95rem 0 0 2.48698%;border:0.1rem solid rgb(0, 0, 0);border-radius:4.5rem;background-color:#fff3fe;box-shadow:0 0 12px 1px rgba(0, 0, 0, .5);overflow:hidden;}
+
+.nav{position:fixed;top:0;left:0;right:0;z-index:47;width:100%;height:2.25rem;margin:0 auto;background-color:#c2e2b8;}
+
+.nav-item{display:block;float:left;}
+
+.nav-right{float:right;width:10.55rem;height:1.45rem;margin:0.6rem 10% 0 0;}
+
+.nav-right .nav-item{min-height:1.45rem;padding-left:1.3rem;font:400 27px/1 'TH Sarabun New';color:rgb(0, 0, 0);-webkit-transition:color 0.2s ease;-moz-transition:color 0.2s ease;-o-transition:color 0.2s ease;-ms-transition:color 0.2s ease;transition:color 0.2s ease;}
+
+.nav-item-2:hover,.nav-item-3:hover,.nav-item-4:hover,.nav-item-5:hover,.nav-right .nav-item:hover{font-family:THSarabunNew;font-weight:normal;color:rgb(255, 161, 21);}
+
+.post-item{float:left;width:100%;padding:0.5rem;border:0.05rem solid #cccccc;border-radius:0.2rem;box-shadow:0 0 3px rgba(0, 0, 0, 0.25);}
+
+.post-item-contentpic{display:block;height:auto;margin:6.6rem auto 0;overflow:hidden;}
+
+.post-item-infobar{float:left;clear:both;width:100%;margin-top:0.35rem;padding-left:0.7rem;}
+
+.post-item-infobar-spectator{float:left;width:0.05rem;height:1.8rem;margin-top:0.35rem;background-color:#adadad;}
+
+.post-item-likebtn{position:relative;float:left;clear:both;width:40px;height:2rem;margin-left:0.5rem;}
+
+.post-item-likebtn:hover{background-color:#ededed;}
+
+.post-item-likecount{position:relative;float:left;width:9.8039215686%;height:2rem;padding-left:0.25rem;}
+
+.post-item-owner{display:block;float:left;width:24.2474916387%;min-height:1.2rem;margin:0.6rem 0 0 0.5rem;color:rgb(0, 0, 0);}
+
+.post-item-profile-pic{position:relative;float:left;width:2.35rem;height:2.3rem;border:0.05rem solid #616161;border-radius:0.2rem;box-shadow:0 1px 2px rgba(0, 0, 0, 0.27);overflow:hidden;}
+
+.post-item-time{float:left;width:27.87%;height:1.2rem;margin-top:0.6rem;padding-left:1.4rem;background-image:url('../images/clock-48.png');background-repeat:no-repeat;background-size:auto auto;background-position:-10px 50%;}
+
+.post-item-title{float:left;width:100%;min-height:1.7rem;margin-top:0.5rem;padding-right:0.5rem;padding-left:0.5rem;font-size:32px;line-height:1;color:rgb(0, 0, 0);}
+
+.sidebar{position:relative;float:right;z-index:29;width:25.5989583333%;height:15.75rem;margin:0.8rem 10% 0 0;padding:0.5rem;border:0.05rem solid #cccccc;border-radius:0.2rem;box-shadow:0 0 3px rgba(0, 0, 0, 0.25);}
+
+.subtitle{float:left;clear:both;text-shadow:0 2px 5px rgba(0, 0, 0, 0.3);font:26px/1.38 THSarabunNew;color:rgb(0, 0, 0);}
+
+.title{float:left;text-shadow:0 3px 9px rgba(0, 0, 0, .5), 0 -1px 1px #ffffff;font:60px/1 JpKillTime;color:rgb(0, 0, 0);}
+
+.wrapper{width:80%;height:10.9rem;margin:0 auto;}
+
+.wrapper .content{width:100%;height:10.9rem;overflow:visible;}
+
+._image{display:block;position:absolute;height:auto;overflow:hidden;}
+
+._text{display:block;float:left;color:rgb(0, 0, 0);}
+
+.logo ._image{top:0.45rem;left:-8.5227272728%;z-index:33;width:10.4rem;}
+
+.post-item-likecount ._text{width:100%;min-height:0.9rem;font:400 18px/2.25 Helvetica;}
+
+.post-item-profile-pic ._image{top:0;bottom:0;left:0;right:0;width:100%;margin:auto;}
+
+.post-item-time ._text{min-height:1.2rem;font-family:THSarabunNew;}
+
+.content-2{position:relative;clear:both;z-index:28;width:52.8333333333%;margin:0.8rem 0 0 10%;}
+
+.nav-item-2,.nav-item-3,.nav-item-4,.nav-item-5{margin-top:0.6rem;padding-right:1.3rem;padding-left:0.1rem;font:400 27px/1 'TH Sarabun New';color:rgb(0, 0, 0);-webkit-transition:color 0.2s ease;-moz-transition:color 0.2s ease;-o-transition:color 0.2s ease;-ms-transition:color 0.2s ease;transition:color 0.2s ease;}
+
+.post-item-2{clear:both;margin-top:0.5rem;}
+
+.post-item-contentpic-1{width:18.5rem;}
+
+.post-item-contentpic-2{width:19.4rem;}
+
+.post-item-likebtn-1{z-index:24;}
+
+.post-item-likebtn-2{z-index:9;}
+
+.post-item-likecount-1{z-index:26;}
+
+.post-item-likecount-2{z-index:11;}
+
+.post-item-profile-pic ._image-2{z-index:19;}
+
+.post-item-profile-pic ._image-3{z-index:4;}
+
+@media(max-width: 960px) {
+.content{width:60.8333333333%;}
+
+.content .headertext{width:40.7291666666%;height:5.1rem;margin-top:2.4rem;margin-left:1.8rem;-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-o-transition:all 0.2s ease;-ms-transition:all 0.2s ease;transition:all 0.2s ease;}
+
+.content .logo{width:7.2rem;height:7.2rem;margin-top:1.05rem;margin-left:3.75%;}
+
+.header{position:relative;z-index:37;}
+
+.header .wrapper{width:48rem;height:auto;}
+
+.headertext .subtitle{font-size:23px;}
+
+.headertext .title{font-size:55px;}
+
+.nav{left:0;right:0;margin-right:auto;margin-left:auto;}
+
+.nav .button{margin-left:0;}
+
+.nav .nav-right{width:10.65rem;margin-right:0;}
+
+.nav-item .button-img{height:auto;}
+
+.post-item .post-item-contentpic{height:auto;}
+
+.post-item .post-item-likebtn{position:relative;width:6.9395017793%;}
+
+.post-item .post-item-likecount{position:relative;}
+
+.post-item-infobar .post-item-owner{width:34.8056771455%;}
+
+.post-item-likebtn .image{height:auto;margin-left:-0.84135%;}
+
+.sidebar{position:relative;z-index:29;width:33.6458333333%;margin-right:1.9987%;}
+
+.wrapper .content{height:9.15rem;}
+
+.logo ._image{left:-8.5714285715%;width:8.45rem;height:auto;}
+
+.post-item-likecount ._text{width:98.7564206542%;}
+
+.post-item-profile-pic ._image{top:0;bottom:0;left:0;right:0;height:auto;margin:auto;}
+
+.content .post-item-2{margin-top:0.65rem;margin-left:-0.06689%;}
+
+.content-2{position:relative;z-index:28;margin-left:1.9987%;}
+
+.nav .nav-item-4,.nav .nav-item-5{font-family:THSarabunNew;font-weight:normal;}
+
+.post-item .post-item-contentpic-1{float:left;clear:both;margin-top:1.75rem;margin-right:0;margin-left:17.07629%;}
+
+.post-item .post-item-likebtn-1{z-index:24;}
+
+.post-item .post-item-likebtn-2{z-index:9;}
+
+.post-item .post-item-likecount-1{z-index:26;}
+
+.post-item .post-item-likecount-2{z-index:11;}
+
+.post-item-likecount ._text-2{margin-left:-0.93575%;font-style:normal;}
+}

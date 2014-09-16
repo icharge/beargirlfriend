@@ -2,7 +2,7 @@
 include('lib.php');
 ?>
 <!DOCTYPE html>
-<html xmlns:fb="http://www.facebook.com/2008/fbml" lang="cs">
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><? echo title();?> | Make a meme</title>

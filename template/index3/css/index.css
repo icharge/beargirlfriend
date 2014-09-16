@@ -1,0 +1,95 @@
+html{font-size:26px;}
+
+body{background-color:#ffffff;font-family:THSarabunNew;font-weight:normal;line-height:1.38;color:rgb(0, 0, 0);}
+
+.adv-bar{position:relative;float:left;clear:both;z-index:4;width:80%;margin-left:10%;padding-top:0.192rem;overflow:hidden;}
+
+.adv-image{display:block;width:24.962rem;height:auto;margin:0 auto;overflow:hidden;}
+
+.adv-link{display:block;width:26.192rem;margin:-1.154rem auto 0;}
+
+.adv-link:hover{background-color:rgba(0, 0, 0, 0);}
+
+.button{width:2.308rem;height:1.154rem;margin:0.269rem 0 0 10.08073%;-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-o-transition:all 0.2s ease;-ms-transition:all 0.2s ease;transition:all 0.2s ease;}
+
+.button-img{display:block;width:1.154rem;height:auto;margin:0 auto;overflow:hidden;}
+
+.content{float:left;}
+
+.header{position:relative;float:left;z-index:12;width:100%;margin-top:1.731rem;background-color:rgb(144, 203, 219);}
+
+.headertext{position:relative;float:left;width:40.7299999999%;height:4.769rem;margin:2.192rem 0 0 1.615rem;}
+
+.logo{position:relative;float:left;width:6.923rem;height:6.923rem;margin:0.731rem 0 0 2.48698%;border:0.077rem solid rgb(0, 0, 0);border-radius:3.462rem;background-color:#fff3fe;box-shadow:0 0 12px 1px rgba(0, 0, 0, .5);overflow:hidden;}
+
+.nav{position:fixed;top:0;left:0;right:0;z-index:22;width:100%;height:1.731rem;margin:0 auto;background-color:#c2e2b8;}
+
+.nav-item{display:block;float:left;}
+
+.nav-right{float:right;width:8.115rem;height:1.115rem;margin:0.462rem 10% 0 0;}
+
+.nav-right .nav-item{min-height:1.115rem;padding-left:1rem;font:400 27px/1 'TH Sarabun New';color:rgb(0, 0, 0);-webkit-transition:color 0.2s ease;-moz-transition:color 0.2s ease;-o-transition:color 0.2s ease;-ms-transition:color 0.2s ease;transition:color 0.2s ease;}
+
+.nav-item-2:hover,.nav-item-3:hover,.nav-item-4:hover,.nav-item-5:hover,.nav-right .nav-item:hover{font-family:THSarabunNew;font-weight:normal;color:rgb(255, 161, 21);}
+
+.sidebar{position:relative;float:left;z-index:2;width:25.5989583333%;height:12.115rem;margin:0.615rem 0 0 1.56641%;}
+
+.subtitle{float:left;clear:both;text-shadow:0 2px 5px rgba(0, 0, 0, 0.3);line-height:1.38;color:rgb(0, 0, 0);}
+
+.title{float:left;text-shadow:0 3px 9px rgba(0, 0, 0, .5), 0 -1px 1px #ffffff;font:60px/1 JpKillTime;color:rgb(0, 0, 0);}
+
+.wrapper{width:80%;height:8.385rem;margin:0 auto;}
+
+.wrapper .content{width:100%;height:8.385rem;overflow:visible;}
+
+._image{display:block;position:absolute;top:0.346rem;left:-8.5227272728%;z-index:8;width:8rem;height:auto;overflow:hidden;}
+
+.content-2{position:relative;clear:both;z-index:1;width:52.8333333333%;height:17.538rem;margin:0.615rem 0 0 10%;}
+
+.nav-item-2,.nav-item-3{margin-top:0.462rem;padding-right:1rem;padding-left:0.077rem;font:400 27px/1 'TH Sarabun New';color:rgb(0, 0, 0);-webkit-transition:color 0.2s ease;-moz-transition:color 0.2s ease;-o-transition:color 0.2s ease;-ms-transition:color 0.2s ease;transition:color 0.2s ease;}
+
+.nav-item-4,.nav-item-5{margin-top:0.462rem;padding-right:1rem;padding-left:0.077rem;font-size:27px;line-height:1;color:rgb(0, 0, 0);-webkit-transition:color 0.2s ease;-moz-transition:color 0.2s ease;-o-transition:color 0.2s ease;-ms-transition:color 0.2s ease;transition:color 0.2s ease;}
+
+@media(max-width: 960px) {
+.adv-bar{position:relative;z-index:4;width:100%;margin-top:-0.043rem;margin-left:0;padding-top:0.217rem;}
+
+.adv-bar .adv-link{width:29.609rem;margin-top:-1.304rem;}
+
+.adv-link .adv-image{width:22.739rem;height:auto;}
+
+.content{width:52.83203125%;height:19.826rem;}
+
+.content .headertext{width:40.7291666666%;height:4.435rem;margin-top:2.087rem;margin-left:1.565rem;-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-o-transition:all 0.2s ease;-ms-transition:all 0.2s ease;transition:all 0.2s ease;}
+
+.content .logo{width:6.261rem;height:6.261rem;margin-top:0.913rem;margin-left:3.75%;border-width:0.087rem;border-radius:3.913rem;}
+
+.header{position:relative;z-index:12;margin-top:1.957rem;}
+
+.header .wrapper{width:960px;height:auto;}
+
+.headertext .subtitle{font-size:23px;}
+
+.headertext .title{font-size:55px;}
+
+.nav{top:auto;left:0;right:0;height:1.957rem;margin-right:auto;margin-left:auto;}
+
+.nav .button{width:2.609rem;height:1.304rem;margin-top:0.304rem;margin-left:0;}
+
+.nav .nav-right{width:9.261rem;height:1.261rem;margin-top:0.522rem;margin-right:0;}
+
+.nav-item .button-img{width:1.304rem;height:auto;}
+
+.nav-right .nav-item{min-height:1.261rem;padding-left:1.13rem;}
+
+.sidebar{position:relative;z-index:2;height:13.696rem;margin-top:0.696rem;margin-left:1.56576%;}
+
+.wrapper .content{height:7.957rem;}
+
+.logo ._image{top:0.391rem;left:-8.5714285715%;width:7.348rem;height:auto;}
+
+.content-2{position:relative;z-index:1;margin-top:0.696rem;}
+
+.nav .nav-item-2,.nav .nav-item-3,.nav .nav-item-4{margin-top:0.522rem;padding-right:1.13rem;padding-left:0.087rem;}
+
+.nav .nav-item-5{margin-top:0.522rem;margin-left:13.85417%;padding-right:1.13rem;padding-left:0.087rem;}
+}
