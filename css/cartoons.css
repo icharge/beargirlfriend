@@ -1,6 +1,6 @@
 html{font-size:20px;}
 
-body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:normal;line-height:1.38;color:rgb(0, 0, 0);}
+body{background-color:rgb(255, 255, 255);font-family:THSarabunNew-Bold;font-weight:normal;line-height:1.2;color:rgb(0, 0, 0);}
 
 .adnaja-img{display:block;width:100%;height:auto;margin:0 auto;overflow:hidden;}
 
@@ -10,39 +10,23 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:no
 
 .adsupnaja .title{width:100%;min-height:1.4rem;margin:0 auto;border-bottom:0.05rem solid #e6e6e6;font-family:Helvetica;font-weight:400;line-height:2;}
 
-.bear{float:right;width:6.4rem;margin:-8.4rem 21.39714% 0 0;}
-
-.bear .image{width:100%;}
-
 .button{width:3rem;height:1.5rem;margin:0.35rem 0 0 10.08073%;-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-o-transition:all 0.2s ease;-ms-transition:all 0.2s ease;transition:all 0.2s ease;}
 
 .button-img{display:block;width:1.5rem;height:auto;margin:0 auto;overflow:hidden;}
 
 .content{float:left;}
 
-.description{float:left;clear:both;width:100%;min-height:1.65rem;font-size:22px;color:rgb(0, 0, 0);}
-
-.description p{margin-bottom:1em;}
-
-.footer{position:relative;z-index:19;width:100%;height:8.4rem;margin:96.2rem auto 0;border-top:0.2rem solid rgb(0, 0, 0);background-color:#ffffff;box-shadow:0 4px 1px rgba(0, 0, 0, .5) inset;}
-
-.footer .title{width:100%;min-height:1.65rem;font-family:THSarabunNew-Bold;font-size:26px;}
-
-.footer .wrapper{position:relative;float:left;clear:both;height:8.2rem;margin-left:10%;padding:0.5rem;background-image:url('../images/Sketch26432025.png');background-repeat:no-repeat;background-size:189px auto;background-position:89% 100%;background-attachment:fixed;}
-
-.header{position:relative;float:left;z-index:51;width:100%;margin-top:2.25rem;background-color:#90cbdb;}
-
-.header .wrapper{height:10.9rem;margin:0 auto;}
+.header{position:relative;float:left;z-index:45;width:100%;margin-top:2.25rem;background-color:#90cbdb;}
 
 .headertext{position:relative;float:left;width:40.7299999999%;height:6.2rem;margin:2.85rem 0 0 2.1rem;}
 
-.headertext .title{text-shadow:0 3px 9px rgba(0, 0, 0, .5), 0 -1px 1px #ffffff;font:60px/1 JpKillTime;}
+.headertext .title{float:left;text-shadow:0 3px 9px rgba(0, 0, 0, .5), 0 -1px 1px #ffffff;font:60px/1 JpKillTime;}
 
-.image{display:block;float:left;height:auto;overflow:hidden;}
+.image{display:block;float:left;width:1.95rem;height:auto;overflow:hidden;}
 
 .logo{position:relative;float:left;width:9rem;height:9rem;margin:0.95rem 0 0 2.48698%;border:0.1rem solid rgb(0, 0, 0);border-radius:4.5rem;background-color:#fff3fe;box-shadow:0 0 12px 1px rgba(0, 0, 0, .5);overflow:hidden;}
 
-.nav{position:fixed;top:0;left:0;right:0;z-index:61;width:100%;height:2.25rem;margin:0 auto;background-color:#c2e2b8;}
+.nav{position:fixed;top:0;left:0;right:0;z-index:55;width:100%;height:2.25rem;margin:0 auto;background-color:#c2e2b8;}
 
 .nav-item{display:block;float:left;}
 
@@ -66,41 +50,39 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:no
 
 .post-item-likebtn:hover{background-color:#ededed;}
 
-.post-item-likebtn .image{width:1.95rem;}
-
 .post-item-likecount{position:relative;float:left;width:9.8039215686%;height:2rem;padding-left:0.25rem;}
 
-.post-item-owner{display:block;float:left;width:24.2474916387%;min-height:1.2rem;margin:0.6rem 0 0 0.5rem;font-family:THSarabunNew-Bold;line-height:1.2;color:rgb(0, 0, 0);}
+.post-item-owner{display:block;float:left;width:24.2474916387%;min-height:1.2rem;margin:0.6rem 0 0 0.5rem;color:rgb(0, 0, 0);}
 
 .post-item-profile-pic{position:relative;float:left;width:2.35rem;height:2.3rem;border:0.05rem solid #616161;border-radius:0.2rem;box-shadow:0 1px 2px rgba(0, 0, 0, 0.27);overflow:hidden;}
 
 .post-item-time{float:left;width:27.87%;height:1.2rem;margin-top:0.6rem;padding-left:1.4rem;background-image:url('../images/clock-48.png');background-repeat:no-repeat;background-size:auto auto;background-position:-10px 50%;}
 
-.post-item-title{float:left;width:100%;min-height:1.7rem;margin-top:0.5rem;padding-right:0.5rem;padding-left:0.5rem;font:32px/1 THSarabunNew-Bold;color:rgb(0, 0, 0);}
+.post-item-title{float:left;width:100%;min-height:1.7rem;margin-top:0.5rem;padding-right:0.5rem;padding-left:0.5rem;font-size:32px;line-height:1;color:rgb(0, 0, 0);}
 
-.sidebar{position:relative;float:right;z-index:43;width:25.5833333333%;margin:0.8rem 10% 0 0;padding:0.5rem;border:0.05rem solid #cccccc;border-radius:0.2rem;box-shadow:0 0 3px rgba(0, 0, 0, 0.25);}
+.sidebar{position:relative;float:right;z-index:37;width:25.5833333333%;height:auto;margin:0.8rem 10% 0 0;padding:0.5rem;border:0.05rem solid #cccccc;border-radius:0.2rem;box-shadow:0 0 3px rgba(0, 0, 0, 0.25);}
 
-.subtitle{float:left;clear:both;text-shadow:0 2px 5px rgba(0, 0, 0, 0.3);font-size:26px;line-height:1.38;color:rgb(0, 0, 0);}
+.subtitle{float:left;clear:both;text-shadow:0 2px 5px rgba(0, 0, 0, 0.3);font:26px/1.38 THSarabunNew;color:rgb(0, 0, 0);}
 
 .title{color:rgb(0, 0, 0);}
 
-.wrapper{width:80%;}
+.wrapper{width:80%;height:10.9rem;margin:0 auto;}
 
 .wrapper .content{width:100%;height:10.9rem;overflow:visible;}
 
-.wrapper .title{float:left;}
+._image{display:block;position:absolute;height:auto;overflow:hidden;}
 
 ._text{display:block;float:left;color:rgb(0, 0, 0);}
 
-.logo ._image{display:block;position:absolute;top:0.45rem;left:-8.5227272728%;z-index:47;width:10.4rem;height:auto;overflow:hidden;}
+.logo ._image{top:0.45rem;left:-8.5227272728%;z-index:41;width:10.4rem;}
 
 .post-item-likecount ._text{width:100%;min-height:0.9rem;font:400 18px/2.25 Helvetica;}
 
-.post-item-profile-pic ._image{display:block;position:absolute;top:0;bottom:0;left:0;right:0;width:100%;height:auto;margin:auto;overflow:hidden;}
+.post-item-profile-pic ._image{top:0;bottom:0;left:0;right:0;width:100%;margin:auto;}
 
-.post-item-time ._text{min-height:1.2rem;line-height:1.2;}
+.post-item-time ._text{min-height:1.2rem;font-family:THSarabunNew;}
 
-.content-2{position:relative;clear:both;z-index:36;width:52.8333333333%;margin:0.8rem 0 0 10%;}
+.content-2{position:relative;clear:both;z-index:30;width:52.8333333333%;margin:0.8rem 0 0 10%;}
 
 .nav-item-2,.nav-item-3,.nav-item-4,.nav-item-5{margin-top:0.6rem;padding-right:1.3rem;padding-left:0.1rem;font:400 27px/1 'TH Sarabun New';color:rgb(0, 0, 0);-webkit-transition:color 0.2s ease;-moz-transition:color 0.2s ease;-o-transition:color 0.2s ease;-ms-transition:color 0.2s ease;transition:color 0.2s ease;}
 
@@ -110,20 +92,20 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:no
 
 .post-item-contentpic-2{float:left;clear:both;margin-top:1.75rem;}
 
-.post-item-likebtn-1{z-index:32;}
+.post-item-likebtn-1{z-index:26;}
 
 .post-item-likebtn-2{z-index:9;}
 
-.post-item-likecount-1{z-index:34;}
+.post-item-likecount-1{z-index:28;}
 
 .post-item-likecount-2{z-index:11;}
 
-.post-item-profile-pic ._image-2{z-index:27;}
+.post-item-profile-pic ._image-2{z-index:21;}
 
 .post-item-profile-pic ._image-3{z-index:4;}
 
 @media(max-width: 960px) {
-.adnaja-item .adnaja-img,.bear .image,.nav-item .button-img,.post-item-contentpic .post-item-img{height:auto;}
+.adnaja-item .adnaja-img,.nav-item .button-img,.post-item-contentpic .post-item-img{height:auto;}
 
 .content{width:60.8333333333%;}
 
@@ -131,15 +113,9 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:no
 
 .content .logo{width:7.2rem;height:7.2rem;margin-top:1.05rem;margin-left:3.75%;}
 
-.footer{position:relative;z-index:19;width:99.9983723958%;}
+.header{position:relative;z-index:45;}
 
-.footer .bear{margin-right:14.99862%;}
-
-.footer .wrapper{width:100%;margin-left:0;}
-
-.header{position:relative;z-index:51;}
-
-.header .wrapper{width:100%;height:auto;}
+.header .wrapper{width:48rem;height:auto;}
 
 .headertext .subtitle{font-size:23px;}
 
@@ -159,7 +135,7 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:no
 
 .post-item-likebtn .image{height:auto;margin-left:-0.84135%;}
 
-.sidebar{position:relative;z-index:43;width:33.6458333333%;margin-right:1.9987%;}
+.sidebar{position:relative;z-index:37;width:33.6458333333%;height:auto;margin-right:1.9987%;}
 
 .wrapper .content{height:9.15rem;}
 
@@ -171,7 +147,7 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:no
 
 .content .post-item-2{margin-top:0.65rem;margin-left:-0.06689%;}
 
-.content-2{position:relative;z-index:36;margin-left:1.9987%;}
+.content-2{position:relative;z-index:30;margin-left:1.9987%;}
 
 .nav .nav-item-4,.nav .nav-item-5{font-family:THSarabunNew;font-weight:normal;}
 
@@ -179,11 +155,11 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:no
 
 .post-item .post-item-contentpic-2{width:103.9145907473%;height:31rem;margin-left:-1.77936%;}
 
-.post-item .post-item-likebtn-1{z-index:32;}
+.post-item .post-item-likebtn-1{z-index:26;}
 
 .post-item .post-item-likebtn-2{z-index:9;}
 
-.post-item .post-item-likecount-1{z-index:34;}
+.post-item .post-item-likecount-1{z-index:28;}
 
 .post-item .post-item-likecount-2{z-index:11;}
 
