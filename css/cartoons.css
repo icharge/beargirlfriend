@@ -36,7 +36,7 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew-Bold;font-weig
 
 .nav-item-2:hover,.nav-item-3:hover,.nav-item-4:hover,.nav-item-5:hover,.nav-right .nav-item:hover{font-family:THSarabunNew;font-weight:normal;color:rgb(255, 161, 21);}
 
-.post-item{float:left;width:100%;padding:0.5rem;border:0.05rem solid #cccccc;border-radius:0.2rem;box-shadow:0 0 3px rgba(0, 0, 0, 0.25);}
+.post-item{clear:both;margin-bottom:0.5rem;float:left;width:100%;padding:0.5rem;border:0.05rem solid #cccccc;border-radius:0.2rem;box-shadow:0 0 3px rgba(0, 0, 0, 0.25);}
 
 .post-item-contentpic{width:100%;max-height:590px;}
 
@@ -85,8 +85,6 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew-Bold;font-weig
 .content-2{position:relative;clear:both;z-index:30;width:52.8333333333%;margin:0.8rem 0 0 10%;}
 
 .nav-item-2,.nav-item-3,.nav-item-4,.nav-item-5{margin-top:0.6rem;padding-right:1.3rem;padding-left:0.1rem;font:400 27px/1 'TH Sarabun New';color:rgb(0, 0, 0);-webkit-transition:color 0.2s ease;-moz-transition:color 0.2s ease;-o-transition:color 0.2s ease;-ms-transition:color 0.2s ease;transition:color 0.2s ease;}
-
-.post-item-2{clear:both;margin-top:0.5rem;}
 
 .post-item-contentpic-1{margin:6.6rem auto 0;}
 
