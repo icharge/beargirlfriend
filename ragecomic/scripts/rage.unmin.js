@@ -8,7 +8,7 @@ RageComic.initialize = function (options) {
     var userAgent = navigator.userAgent.toLowerCase();
     var canvasPainter;
     var canvasRowCount = 0;
-    var canvasInitialRows = 3;
+    var canvasInitialRows = 2;
     var initBrushColor = '000000';
     var initialBrushWidth = 5;
 
@@ -120,22 +120,7 @@ RageComic.initialize = function (options) {
     }
     var addFace = function (packName, name, successCallback, failCallback) {
             var faceId = "face" + faceIndex;
-            $("<div class='face draggableFace' id='" + faceId + "'>" +
-                "<div class='objectControllerContainer'>" + "<span class='remove'>" +
-                "<img class='objectController' title='เอาออก' src='" + packRoot + "images/delete.png' />" +
-                "</span>" +
-                "<span class='sendToBack'>" + "<img class='objectController' title='แปะถาวร' src='" + packRoot + "images/shape_move_backwards.png' />" +
-                "</span>" +
-                "<span class='rotateLeft'>" + "<img class='objectController' title='หมุนรูปทวนเข็ม' src='" + packRoot + "images/shape_rotate_anticlockwise.png' />" +
-                "</span>" +
-                "<span class='rotateRight'>" + "<img class='objectController' title='หมุนรูปตามเข็ม' src='" + packRoot + "images/shape_rotate_clockwise.png' />" +
-                "</span>" +
-                "<span class='flipHorizontal'>" + "<img class='objectController' title='กลับด้าน' src='" + packRoot + "images/shape_flip_horizontal.png' />" +
-                "</span>" +
-                "<span class='cloneFace'>" + "<img class='objectController' title='แยกร่าง' src='" + packRoot + "images/application_double.png' />" +
-                "</span>" +
-                "</div>" +
-                "<img class='faceImage' title='Drag me around! This is also resizable!' src='" + getImagePath(packName, name, true) + "' />" + "</div>").appendTo('#canvasContainer').hover(function () {
+            $("<div class='face draggableFace' id='" + faceId + "'>" + "<div class='objectControllerContainer'>" + "<span class='remove'>" + "<img class='objectController' title='Remove' src='" + packRoot + "images/delete.png' />" + "</span>" + "<span class='sendToBack'>" + "<img class='objectController' title='Send to back' src='" + packRoot + "images/shape_move_backwards.png' />" + "</span>" + "<span class='rotateLeft'>" + "<img class='objectController' title='Rotate left' src='" + packRoot + "images/shape_rotate_anticlockwise.png' />" + "</span>" + "<span class='rotateRight'>" + "<img class='objectController' title='Rotate right' src='" + packRoot + "images/shape_rotate_clockwise.png' />" + "</span>" + "<span class='flipHorizontal'>" + "<img class='objectController' title='Horizontal flip' src='" + packRoot + "images/shape_flip_horizontal.png' />" + "</span>" + "<span class='cloneFace'>" + "<img class='objectController' title='Clone object' src='" + packRoot + "images/application_double.png' />" + "</span>" + "</div>" + "<img class='faceImage' title='Drag me around! This is also resizable!' src='" + getImagePath(packName, name, true) + "' />" + "</div>").appendTo('#canvasContainer').hover(function () {
                 $("#" + faceId + " > div.objectControllerContainer").show();
             }, function () {
                 $("#" + faceId + " > div.objectControllerContainer").hide();
@@ -366,32 +351,23 @@ RageComic.initialize = function (options) {
     }
 
     function addRowsLines(number) {
-        // เกี่ยวกับวาดเส้นแถว
         var panelHeight = canvasPainter.context.canvas.height / canvasRowCount;
-        var canvasHeight = canvasPainter.context.canvas.height;
         canvasPainter.context.save();
         canvasPainter.context.strokeStyle = '#000';
         canvasPainter.context.lineWidth = 1;
         canvasPainter.context.beginPath();
-        for (var i = 1; i <= number; i++) {
+        for (var i = 0; i <= number; i++) {
             var y = ((canvasRowCount - number + i) * panelHeight);
             y == 0 ? y = 1 : y -= 1;
-            //alert('canvas: '+canvasHeight+'\ny: '+ y+'\nRow: '+canvasRowCount);
-            // if (canvasHeight - 1 != y && canvasRowCount == 2)
-            // {
-                canvasPainter.context.moveTo(0, y);
-                canvasPainter.context.lineTo(canvasPainter.context.canvas.width, y);
-            // }
+            canvasPainter.context.moveTo(0, y);
+            canvasPainter.context.lineTo(canvasPainter.context.canvas.width, y);
         }
-        // เส้นขอบซ้าย
-        // canvasPainter.context.moveTo(1, (canvasRowCount - number) * panelHeight);
-        // canvasPainter.context.lineTo(1, canvasPainter.context.canvas.height);
-        // เส้นขอบขวา
-        // canvasPainter.context.moveTo(canvasPainter.context.canvas.width - 1, (canvasRowCount - number) * panelHeight);
-        // canvasPainter.context.lineTo(canvasPainter.context.canvas.width - 1, canvasPainter.context.canvas.height);
-        // เส้นกลาง
-        // canvasPainter.context.moveTo(canvasPainter.context.canvas.width / 2, (canvasRowCount - number) * panelHeight);
-        // canvasPainter.context.lineTo(canvasPainter.context.canvas.width / 2, canvasPainter.context.canvas.height);
+        canvasPainter.context.moveTo(1, (canvasRowCount - number) * panelHeight);
+        canvasPainter.context.lineTo(1, canvasPainter.context.canvas.height);
+        canvasPainter.context.moveTo(canvasPainter.context.canvas.width - 1, (canvasRowCount - number) * panelHeight);
+        canvasPainter.context.lineTo(canvasPainter.context.canvas.width - 1, canvasPainter.context.canvas.height);
+        canvasPainter.context.moveTo(canvasPainter.context.canvas.width / 2, (canvasRowCount - number) * panelHeight);
+        canvasPainter.context.lineTo(canvasPainter.context.canvas.width / 2, canvasPainter.context.canvas.height);
         canvasPainter.context.closePath();
         canvasPainter.context.stroke();
         canvasPainter.context.restore();
@@ -457,7 +433,6 @@ RageComic.initialize = function (options) {
         });
         //if (target != 'smhlmao') addWatermark();
 		addWatermark();
-        canvasPainter.resize(canvasPainter.context.canvas.width, canvasPainter.context.canvas.height - 1);
         var oCanvas = $("#drawingCanvas")[0];
         var oImg = Canvas2Image.saveAsPNG(oCanvas, true);
         oImg.id = "canvasImage";

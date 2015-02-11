@@ -1,5 +1,5 @@
-<?
-error_reporting(0);
+<?php
+//error_reporting(E_ALL ^ (E_NOTICE | E_DEPRECATED)); // Report except Notice.
 include('js/facebook.php');
 
 session_start();
@@ -37,7 +37,7 @@ $pripojdsadsa = mysql_query("SELECT * FROM settings WHERE id = 1");
 
 
 //****************************************************** LOGOUT **************************************/	
-$logout = $_GET['logout'];	
+$logout = (isset($_GET['logout'])?$_GET['logout']:'');	
 if($logout == 'true')
 				{
 					$SN = "autorizace";

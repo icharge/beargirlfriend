@@ -8,7 +8,7 @@ include $tplf."header.php";
 
 
 //////////
-$vote = $_GET['page'];
+$vote = (isset($_GET['page'])?$_GET['page']:'');
 $text= "-uv";
 $obsahuje = strpos($vote, $text);
 if($obsahuje === false){}

@@ -14,7 +14,7 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:no
 
 .bear .image{width:100%;}
 
-.button{width:3rem;height:1.5rem;margin:0.35rem 0 0 10.08073%;-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-o-transition:all 0.2s ease;-ms-transition:all 0.2s ease;transition:all 0.2s ease;}
+.button{width:3rem;height:1.5rem;margin: 0.46rem 0 0 10.08073%;-webkit-transition:all 0.2s ease;-moz-transition:all 0.2s ease;-o-transition:all 0.2s ease;-ms-transition:all 0.2s ease;transition:all 0.2s ease;}
 
 .button-img{display:block;width:1.5rem;height:auto;margin:0 auto;overflow:hidden;}
 
@@ -42,15 +42,15 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:no
 
 .logo{position:relative;float:left;width:9rem;height:9rem;margin:0.95rem 0 0 2.48698%;border:0.1rem solid rgb(0, 0, 0);border-radius:4.5rem;background-color:#fff3fe;box-shadow:0 0 12px 1px rgba(0, 0, 0, .5);overflow:hidden;}
 
-.nav{position:fixed;top:0;left:0;right:0;z-index:61;width:100%;height:2.25rem;margin:0 auto;background-color:#c2e2b8;}
+.nav{position:fixed;top:0;left:0;right:0;z-index:61;width:100%;height:2.25rem;margin:0 auto;background-color:#c2e2b8;border-bottom: solid 1px #E8E8E8;box-shadow: 0 0 1px #000;}
 
 .nav-item{display:block;float:left;}
 
-.nav-right{float:right;width:10.55rem;height:1.45rem;margin:0.6rem 10% 0 0;}
+.nav-right{float:right;width:10.55rem;/* height:1.45rem; */margin: 0.4rem 10% 0 0;}
 
-.nav-right .nav-item{min-height:1.45rem;padding-left:1.3rem;font:400 27px/1 'TH Sarabun New';color:rgb(0, 0, 0);-webkit-transition:color 0.2s ease;-moz-transition:color 0.2s ease;-o-transition:color 0.2s ease;-ms-transition:color 0.2s ease;transition:color 0.2s ease;}
+.nav-right .nav-item{min-height:1.45rem;padding-right: 0.6rem;padding-left: 0.6rem;font:400 27px/1 'TH Sarabun New';color:rgb(0, 0, 0);-webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease;border-left: solid 1px #000;}
 
-.nav-item-2:hover,.nav-item-3:hover,.nav-item-4:hover,.nav-item-5:hover,.nav-right .nav-item:hover{font-family:THSarabunNew;font-weight:normal;color:rgb(255, 161, 21);}
+.nav-item-2:hover,.nav-item-3:hover,.nav-item-4:hover,.nav-item-5:hover,.nav-right .nav-item:hover{font-family:THSarabunNew;font-weight:normal;color:rgb(255, 161, 21);background-color: rgba(255, 255, 255, 0.7);}
 
 .post-item{float:left;width:100%;padding:0.5rem;border:0.05rem solid #cccccc;border-radius:0.2rem;box-shadow:0 0 3px rgba(0, 0, 0, 0.25);}
 
@@ -102,7 +102,7 @@ body{background-color:rgb(255, 255, 255);font-family:THSarabunNew;font-weight:no
 
 .content-2{position:relative;clear:both;z-index:36;width:52.8333333333%;margin:0.8rem 0 0 10%;}
 
-.nav-item-2,.nav-item-3,.nav-item-4,.nav-item-5{margin-top:0.6rem;padding-right:1.3rem;padding-left:0.1rem;font:400 27px/1 'TH Sarabun New';color:rgb(0, 0, 0);-webkit-transition:color 0.2s ease;-moz-transition:color 0.2s ease;-o-transition:color 0.2s ease;-ms-transition:color 0.2s ease;transition:color 0.2s ease;}
+.nav-item-2,.nav-item-3,.nav-item-4,.nav-item-5{margin-top: 0.5rem;padding-right: 0.6rem;padding-left: 0.6rem;font:400 27px/1 'TH Sarabun New';color:rgb(0, 0, 0);-webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;-o-transition: all 0.2s ease;-ms-transition: all 0.2s ease;transition: all 0.2s ease;border-left: solid 1px #000;}
 
 .post-item-2{clear:both;margin-top:0.5rem;}
 

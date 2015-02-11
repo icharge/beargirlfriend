@@ -29,9 +29,9 @@ include('lib.php');
     <div class="vypis_mem"> <span class="bgBlue"></span> <span class="bgGrey"></span>
       <div class="login">
         <?
-	  $email = $_POST['email'];
-	$password = $_POST['password'];
-	$log = $_POST['log'];
+	  $email = (isset($_POST['email'])?$_POST['email']:'');
+	$password = (isset($_POST['password'])?$_POST['password']:'');
+	$log = (isset($_POST['log'])?$_POST['log']:'');
 	
 	$p = md5($password);
 	if($log=='true')
